@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="POST" action="https://localhost:8443/ContactList/createuser">
+            <table>
+                <tr>
+                    <td colspan="2"><strong>Create User</strong></td>
+                </tr>
+                <tr>
+                    <td>Insert Username:</td>
+                    <td><input type="text" name="username"  required/></td>
+                </tr>
+                <tr>
+                    <td>Insert Full Name: </td>
+                    <td><input type="text" name="fullname"  required/></td>
+                </tr>
+                <tr>
+                    <td>Insert email: </td>
+                    <td><input type="text" name="email"  required/></td>
+                </tr>
+                <tr>
+                    <td>Insert Phone: </td>
+                    <td><input type="text" name="phone"  required/></td>
+                </tr>
+                <tr>
+                    <td>Insert Password:</td>
+                    <td><input type="password" name="password" required /></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="password" name="confirm_password" required /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Go" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

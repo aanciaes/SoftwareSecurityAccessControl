@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Page</title>
+    </head>
+    <body>
+        <form method="POST" action="j_security_check">
+            <table>
+                <tr>
+                    <td colspan="2"><strong>Login:</strong></td>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="j_username"  required/></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="j_password" required /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Go" /></td>
+                </tr>
+            </table>
+        </form>
+        <br><hr/>
+
+
+        <button class='btn btn-success' 
+                onclick="location.href = 'https://localhost:8443/ContactList/register.html'">
+            Register
+        </button>
+
+
+    </body>
+</html>

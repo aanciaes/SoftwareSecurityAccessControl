@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ContactList">
+    
+    <Realm className="customRealm.realm.MyRealm" resourceName="MyRealm"/>
+    
+</Context>
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lock a User</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Lock a user</h1>
+        <form action ="https://localhost:8443/ContactList/lockuser" method = "POST">
+            Enter username: 
+            <input type="text" name="lockuser" required/><br><br>
+            <button class="btn btn-success">Lock user</button>
+        </form><br><hr/>
+
+        <h1>Unlock a user</h1>
+        <form action ="https://localhost:8443/ContactList/unlockuser" method = "POST">
+            Enter username: 
+            <input type="text" name="unlockuser" required/><br><br>
+            <button class="btn btn-success">Unlock user</button>
+        </form><br>
+
+        <hr/><br>
+
+        <form class="form-horizontal" id="back"
+              action='https://localhost:8443/ContactList/allusers'
+              method="POST">
+            <button class="btn btn-success">Go Back</button>
+        </form>
+    </body>
+</html>
